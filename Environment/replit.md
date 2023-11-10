@@ -5,8 +5,8 @@
 ## Шаг 1. Создаем проект
 
 1. На стартовой странице replit нажимаем `+ Create Repl`
-   ![replit/Pasted image 20231110154502.png](./replit/Pasted image 20231110154502.png)
+   ![replit/Pasted image 20231110154502.png](../Images/replit/Pasted image 20231110154502.png)
 2. Во всплывающем окне набираем rails и выбираем первый шаблон
-   ![Pasted image 20231110154618.png](./replit/Pasted image 20231110154618.png)
+   ![Pasted image 20231110154618.png](../Images/replit/Pasted image 20231110154618.png)
 3. Вписываем название проекта и нажимаем `+ Create Repl`
-   ![Pasted image 20231110154735.png](./replit/Pasted image 20231110154735.png)
+   ![Pasted image 20231110154735.png](../Images/replit/Pasted image 20231110154735.png)
