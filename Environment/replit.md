@@ -6,12 +6,62 @@
 
 1. На стартовой странице replit нажимаем `+ Create Repl`
 
-   ![Pasted image 20231110154502.png](../Images/replit/1.png)
+![../Images/replit/1.png](../Images/replit/1.png)
 
 2. Во всплывающем окне набираем rails и выбираем первый шаблон
 
-   ![Pasted image 20231110154618.png](../Images/replit/2.png)
+![../Images/replit/2.png](../Images/replit/2.png)
 
 3. Вписываем название проекта и нажимаем `+ Create Repl`
+
+![../Images/replit/3.png](../Images/replit/3.png)
+
+
+## Шаг 2. Создаём Git репозиторий на Replit
+
+1. Находим во вкладке Tools инструмент Git
    
-   ![Pasted image 20231110154735.png](../Images/replit/3.png)
+![../Images/replit/4.png](../Images/replit/4.png)
+
+2. После выбора этого инструмента вылезет окно Git рядом с окном консоли, в нём нужно нажать `Initialize Git Repository`. Рекомендуется перед этим снять галочку `Create initial commit with all changes`, потому что этот коммит будет создан от лица вашего пользователя реплит а не от вашего аккаунта GitHub (Но если вы её не убрали, ничего пересоздавать не нужно, продолжайте следовать гайду)
+   
+![../Images/replit/5.png](../Images/replit/5.png)
+
+4. Теперь окно этого инструмента показывает ветки Git
+
+## Шаг 3. Подключаем GitHub
+
+1. Нажимаем на иконку настроек репозитория на Replit
+   
+![../Images/replit/6.png](../Images/replit/6.png)
+
+2. Нажимаем на первую кнопку `Connect to GitHub`
+   
+![../Images/replit/7.png](../Images/replit/7.png)
+
+3. Вас перенаправит на GitHub, где нужно нажать `Install&Authorize.
+   
+![../Images/replit/8.png](../Images/replit/8.png)
+
+4. Вас перенаправит обратно на Replit, но на нём никаких изменений. Обновите страницу и снова перейдите в настройки репозитория Replit
+5. Введите имя репозитория и описание и нажмите `Create Repository on GitHub`. В качестве `Commit author` рекомендуется выбрать ваш аккаунт GitHub вместо аккаунта Replit
+   
+![../Images/replit/9.png](../Images/replit/9.png)
+
+6. После того, как появится надпись, что репозиторий создан, вернитесь обратно из настроек репозитория к просмотру веток либо обновите страницу. Всплывет окно, в котором нужно нажать `Confirm for this session`
+   
+![../Images/replit/10.png](../Images/replit/10.png)
+
+7. Если вы на шаге 2.2 не делали Initial Commit, то выберите в окне Git ветку main и сделайте ваш первый коммит в Replit.
+8. Репозиторий на Github был создан, первый коммит сделан, но никаких файлов на GitHub пока нет. Выберите на Replit ветку main, и в ней нажмите `Publish branch as 'origin/main'`
+   
+![../Images/replit/11.png](../Images/replit/11.png)
+
+
+## Примечание
+
+Если на шаге 2.2 вы не сняли галочку `Create initial commit with all changes`, в вашей истории коммитов на GitHub этот самый первый коммит будет от лица вашего пользователя Replit. Но пугаться этого не нужно, потому что все остальные коммиты Replit будет делать от лица того пользователя, которого вы выбрали на шаге 3.5
+
+
+![../Images/replit/12.png](../Images/replit/12.png)
+
