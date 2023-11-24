@@ -1,11 +1,11 @@
 ## Инструкция для контрибьторов
 
 Установите пакет docsify
-```bash   
-npm install docsify -g
+```bash
+npm install docsify-cli -g
 ```
 Запустите сервер
-```bash   
+```bash
  docsify serve ./
 ```
 Добавьте новые страницы в `_sidebar.md`
